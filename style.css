@@ -1,0 +1,87 @@
+* {
+	margin: 0 auto;
+	font-family: 'Orbitron', sans-serif;
+}
+
+body {
+	/* https://css-gradient.com/ */
+	/* background: #8C8C8C;
+	background: radial-gradient(at center, #02ff41, #000000); */
+	background: rgb(0, 0, 0);
+}
+
+.main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.login-screen {
+	z-index: 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	/* background-color: transparent; */
+	background: #8C8C8C;
+	background: radial-gradient(at center, #02ff41, #000000);
+	border-radius: 40px;
+	box-shadow: 0px 0px 30px 10px #02ff41;
+	width: 500px;
+	height: 500px;
+}
+
+h1 {
+	font-size: 40px;
+	padding: 5px;
+	margin-bottom: 50px;
+}
+
+h1::after {
+	content: " 🎮";
+}
+
+#email {
+	padding: 10px;
+	margin: 10px auto;
+	width: 80%;
+	border-radius: 5px;	
+}
+
+#email:hover{
+	box-shadow: 0px 0px 30px 5px #02ff41;
+}
+
+#password {
+	padding: 10px;
+	margin: 10px auto;
+	width: 80%;
+	border-radius: 5px;
+}
+
+#password:hover {
+	box-shadow: 0px 0px 30px 5px #02ff41;
+}
+
+#loginButton {
+	padding: 10px 50px;
+	margin: 40px auto;
+	border-radius: 10px 50px;
+	background: transparent;
+	border-color: black;
+}
+
+#loginButton:hover {
+	box-shadow: 0px 0px 30px 5px #02ff41;
+}
+
+#forgotPassword {
+	border-radius: 5px;
+	background: transparent;
+	border: transparent;
+}
+
+#forgotPassword:hover {
+	box-shadow: 0px 0px 10px 5px #02ff41;
+}
